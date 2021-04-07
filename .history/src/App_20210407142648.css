@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Train+One&family=Zilla+Slab+Highlight&display=swap');
+
+
+
+*
+{
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#root
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.container
+{
+  background-color: rgb(0, 182, 0);
+  width: 400px;
+  height: 220px;
+  box-shadow: 20px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.button
+{
+  background-color: rgb(231, 255, 164);
+  width: 250%;
+  height: 20%;
+  box-shadow: 12px 6px rgba(0,0,0,0.2);
+}
+
+.button:active
+{
+  outline: none;
+  transform: scale(0.98);
+}
+
+body
+{
+  background-color: green;
+}
+
+.title
+{
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Train One', cursive;
+  font-family: 'Zilla Slab Highlight', cursive;
+}
+
+.joke
+{
+  font-size: 20px;
+  margin: 1rem;
+}

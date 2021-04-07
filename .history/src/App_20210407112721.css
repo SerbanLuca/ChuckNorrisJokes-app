@@ -1,0 +1,18 @@
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container-btn
+{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.easy
+{
+  width: 100px;
+  height: 50px;
+}
